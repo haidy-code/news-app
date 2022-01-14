@@ -11,6 +11,7 @@ class NewsItemWidget extends StatelessWidget {
     return InkWell(
       onTap: (){
         Navigator.of(context).pushNamed(NewsDetails.routename,arguments: news);
+        //fghjhgfvgh
       },
       child: Container(
         margin: EdgeInsets.all(4),
