@@ -1,4 +1,4 @@
-import 'package:news_app/home/data/sports_response.dart';
+import 'package:news_app/home/data/sourses_response.dart';
 
 /// status : "ok"
 /// totalResults : 12128

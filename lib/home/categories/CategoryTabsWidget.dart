@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:news_app/home/data/sports_response.dart';
+import 'package:news_app/home/data/sourses_response.dart';
 import 'package:news_app/home/news/NewsListWidget.dart';
 
 import 'TabItem.dart';
@@ -26,15 +26,16 @@ class _CategoryTabsWidgetState extends State<CategoryTabsWidget> {
             TabBar(
               isScrollable: true,
                 padding: EdgeInsets.all(8),
-                indicatorColor: Colors.transparent,
+                indicatorColor: Colors.transparent,//3shan yshel al5at ally  ta7t tab
                 onTap: (index) {
                   selectedIndex = index;
                   setState(() {});
                 },
-                //map bt7wl source ltab item
+                //map bt7wl source ltab item 3shan a3rdha
+                // lw knt 3aiza asta5dm aldefault knt ha7wlha lobject mn no3 tab
                 tabs: widget.sources
                     .map((element) => TabItem(element,
-                        selectedIndex == widget.sources.indexOf(element)))
+                        selectedIndex == widget.sources.indexOf(element)))//lw condition raga3ly true yb2a slected
                     .toList())
             ,NewsListWidget(
               source: widget.sources[selectedIndex],

@@ -7,5 +7,7 @@ class MyThemeData {
       textTheme: TextTheme(
           headline3: TextStyle(color: Colors.white, fontSize: 26),
           headline4: TextStyle(color: Colors.white, fontSize: 22),
-          headline5: TextStyle(color: Colors.black, fontSize: 18)));
+          headline5: TextStyle(color: Colors.black, fontSize: 18),
+          headline6: TextStyle( fontSize: 15)
+      ));
 }
