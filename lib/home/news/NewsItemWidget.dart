@@ -13,6 +13,7 @@ class NewsItemWidget extends StatelessWidget {
         Navigator.of(context).pushNamed(NewsDetails.routename,arguments: news);
         //fghjhgfvgh
         //ghjkg
+        //ghjkjhgbhjk
       },
       child: Container(
         margin: EdgeInsets.all(4),
